@@ -17,6 +17,13 @@ nav a:hover
 {
     width: 50%;
     border-top: none;
+    color: #0065FC;
+    border-bottom: 5px solid #0065FC;
+}
+.active
+{
+    border-top: none;
+    color: #0065FC;
     border-bottom: 5px solid #0065FC;
 }
 #filtres
