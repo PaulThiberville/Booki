@@ -1,0 +1,156 @@
+h2
+{
+    font-size: 18px;
+}
+
+h3
+{
+    font-size: 16px;
+}
+
+p
+{
+    font-size: 16px;
+}
+form
+{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#search-bar
+{
+    width: 100%;
+}
+#search-bar input
+{
+    width: 100%;
+}
+button
+{
+    border-radius: 15px;
+    margin-left: -15px;
+}
+
+.mobile
+{
+    display: initial;
+}
+.mobile *
+{
+    font-size: 16px;
+}
+
+.desktop
+{
+    display: none;
+}
+
+#filtres
+{
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+}
+#filtres h2
+{
+    margin: 5px 0;
+}
+.filtres-container
+{
+    flex-wrap: wrap;
+}
+
+.filtre
+{
+    margin: 5px 0;
+}
+.ville-infos
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#info
+{
+    margin:0;
+}
+#main-container
+{
+    background-color: #f2f2f2;
+    padding: 0;
+}
+.grey-panel
+{
+    padding: 0 10px;
+    background-color: white;
+    border-radius: 0;
+}
+#populaires
+{
+    background-color: transparent;
+    margin-bottom: 0;
+}
+#populaires-container
+{
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+#populaires-container .card
+{
+    width: 100%;
+}
+
+#hebergements-container
+{
+    flex-direction: column;
+}
+
+#hebergements h2
+{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#hebergements-container .card
+{
+    width: 100%;
+}
+
+#activites article
+{
+    width: 100%;
+}
+
+.full
+{
+    height: 16.666%;
+}
+
+.great
+{
+    height: 16.666%;
+}
+
+.medium
+{
+    height: 16.666%;
+}
+
+.small
+{
+    height: 16.666%;
+}
+
+#move
+{
+    order: 0;
+}
+
+footer
+{
+    flex-direction: column;
+}
+footer *
+{
+    width: 100%;
+}

@@ -1,0 +1,92 @@
+header
+{
+    flex-direction: column;
+    align-items: center;
+}
+nav
+{
+    width: 100%;
+}
+nav a
+{
+    width: 50%;
+    border-top: none;
+    border-bottom: 5px solid #f2f2f2;
+}
+nav a:hover
+{
+    width: 50%;
+    border-top: none;
+    border-bottom: 5px solid #0065FC;
+}
+#filtres
+{
+    justify-content: space-between;
+}
+.filtres-container
+{
+    width: 90%;
+    justify-content: space-between;
+}
+
+#main-container
+{
+    flex-direction: column;
+}
+
+#hebergements
+{
+    width: 100%;
+    order: 1;
+}
+#populaires
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#populaires-container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#populaires-container .card
+{
+    width: 33.333%;
+}
+
+#activites-container
+{
+    height: 1300px;
+}
+
+#activites article
+{
+    width: 50%;
+}
+
+.full
+{
+    height: 50%;
+}
+
+.great
+{
+    height: 30%;
+}
+
+.medium
+{
+    height: 25%;
+}
+
+.small
+{
+    height: 20%;
+}
+
+#move
+{
+    order: 1;
+}
