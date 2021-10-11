@@ -48,6 +48,12 @@ nav a:hover
 #main-container
 {
     flex-direction: column;
+    padding: 5px;
+}
+
+.grey-panel
+{
+    padding: 5px;
 }
 
 #hebergements
@@ -70,6 +76,11 @@ nav a:hover
 #populaires-container .card
 {
     width: 33.333%;
+}
+
+.horizontal .card-infos
+{
+    padding-left: 5px;
 }
 
 #activites-container

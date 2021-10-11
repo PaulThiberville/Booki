@@ -334,7 +334,7 @@ button *
 }
 #activites-container
 {
-    height: 500px;
+    height: 550px;
     width: 100%;
     display: flex;
     flex-direction: column;
