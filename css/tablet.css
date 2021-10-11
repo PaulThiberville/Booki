@@ -29,11 +29,19 @@ nav a:hover
 }
 #filtres
 {
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.filtre
+{
+    margin: 5px 0;
 }
 .filtres-container
 {
-    width: 90%;
+    margin-top: 10px;
+    width:100%;
+    max-width: 700px;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 

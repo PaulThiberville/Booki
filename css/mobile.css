@@ -58,6 +58,7 @@ button
 .filtres-container
 {
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .filtre
