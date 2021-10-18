@@ -83,6 +83,11 @@ nav a:hover
     padding-left: 5px;
 }
 
+.more
+{
+    height: auto;
+}
+
 #activites-container
 {
     height: 1300px;
