@@ -1,157 +1,106 @@
-h2
-{
+h2{
     font-size: 18px;
 }
-
-h3
-{
+h3{
     font-size: 16px;
 }
-
-p
-{
+p{
     font-size: 16px;
 }
-form
-{
+form{
     margin-top: 20px;
     margin-bottom: 15px;
 }
-#search-bar
-{
+#search-bar{
     width: 100%;
 }
-#search-bar input
-{
+#search-bar input{
     width: 100%;
 }
-button
-{
+button{
     border-radius: 15px;
     margin-left: -15px;
 }
-
-.mobile
-{
+.mobile{
     display: initial;
 }
-.mobile *
-{
+.mobile *{
     font-size: 16px;
 }
-
-.desktop
-{
+.desktop{
     display: none;
 }
 
-#filtres
-{
+#filtres{
     flex-direction: column;
     align-items: flex-start;
     margin: 0;
 }
-#filtres h2
-{
-    margin: 5px 0;
-}
-.filtres-container
-{
+.filtres-container{
     flex-wrap: wrap;
     width: 100%;
 }
-
-.filtre
-{
+.filtre{
     margin: 5px 0;
 }
-.ville-infos
-{
+.ville-infos{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-#info
-{
+#info{
     margin:0;
 }
-#main-container
-{
+#main-container{
     background-color: #f2f2f2;
     padding: 0;
 }
-.grey-panel
-{
+.grey-panel{
     padding: 0 10px;
     background-color: white;
     border-radius: 0;
 }
-#populaires
-{
+#populaires{
     background-color: transparent;
     margin-bottom: 0;
 }
-#populaires-container
-{
+#populaires-container{
     flex-direction: column;
     padding-bottom: 20px;
 }
-
-#populaires-container .card
-{
+#populaires-container .card{
     width: 100%;
 }
-
-#hebergements-container
-{
+#hebergements-container{
     flex-direction: column;
 }
-
-#hebergements h2
-{
+#hebergements h2{
     margin-top: 40px;
     margin-bottom: 10px;
 }
-
-#hebergements-container .card
-{
+#hebergements-container .card{
     width: 100%;
 }
-
-#activites article
-{
+#activites article{
     width: 100%;
 }
-
-.full
-{
+.full{
     height: 16.666%;
 }
-
-.great
-{
+.great{
     height: 16.666%;
 }
-
-.medium
-{
+.medium{
     height: 16.666%;
 }
-
-.small
-{
+.small{
     height: 16.666%;
 }
-
-#move
-{
+#move{
     order: 0;
 }
-
-footer
-{
+footer{
     flex-direction: column;
 }
-footer *
-{
+footer *{
     width: 100%;
 }

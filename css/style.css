@@ -11,8 +11,7 @@ html, body { height: 100%; }
     padding: 0;
     font-size: 12px;
 }
-body
-{
+body{
     width: 100%;
     max-width: 1440px;
     margin-right: auto;
@@ -22,29 +21,22 @@ h1{
     font-size: 22px;
     font-weight: 900;
 }
-h2
-{
+h2{
     font-size: 19px;
     font-weight: 800;
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
 }
-
-h3
-{
+h3{
     font-size: 14px;
     font-weight: 800;
 }
-
-p
-{
+p{
     font-size: 14px;
     font-weight: 500;
 }
-
-i
-{
+i{
     font-size: 20px;
 }
 
@@ -66,7 +58,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1400px;
     width: 95%;
     margin: auto;
 }
@@ -81,13 +72,11 @@ nav a{
     font-size: larger;
     border-top: 2px solid white;
 }
-nav a:hover, nav a:active{ 
+nav a:hover{ 
     border-top: 2px solid #0065FC;
     color: #0065FC;
 }
-
-.active
-{
+.active{
     border-top: 2px solid #0065FC;
     color: #0065FC;
 }
@@ -99,15 +88,12 @@ nav a:hover, nav a:active{
 /***
         Search
 ***/ 
-#search
-{
+#search{
     padding: 0px 20px;
 }
-#search h1
-{
+#search h1{
     margin: 20px 0 0 0;
 }
-
 form{ 
     display: flex;
     margin-top: 20px;
@@ -120,7 +106,6 @@ form{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-
 #search-bar input{
     width: 200px;
     border: none;
@@ -145,18 +130,15 @@ form{
     border-bottom-right-radius: 15px;
     padding: 0 20px
 }
-button *
-{
+button *{
     color:white;
 }
-.desktop
-{
+.desktop{
     display: flex;
     font-size: 16px;
     font-weight: 900;
 }
-.mobile
-{    
+.mobile{    
     display: none;
 }
 #filtres{
@@ -164,19 +146,16 @@ button *
     align-items: center;
     margin: 30px 0;
 }
-#filtres strong
-{
+#filtres strong{
     font-size: 16px;
     font-weight:900;
 }
-.filtres-container
-{
+.filtres-container{
     display: flex;
     flex-direction: row;
     width: 950px;
     justify-content: space-evenly;
 }
-
 .filtre{
     display: flex;
     align-items: center;
@@ -184,9 +163,7 @@ button *
     border : 2px solid #E2E2E2;
     margin: 0;  
 }
-
-.filtre strong
-{
+.filtre strong{
     margin-right: 10px;
     margin-left: 15px;
     margin-right: 20px;
@@ -205,8 +182,7 @@ button *
     margin-bottom: 40px;
 }
 .ville-infos i.fas{ font-size: 75%;}
-#info
-{
+#info{
     padding: 0 5px;
     margin: 5px 0 0 0;
 }
@@ -214,38 +190,30 @@ button *
 /***
         Cards
 ***/
-.card
-{
+.card{
     padding: 10px;
 }
-.card-content
-{
+.card-content{
     border-radius: 25px;
     overflow: hidden;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: 
+    rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, 
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     background-color: white;
     border: 5px solid white;
 }
-.card-content a:hover
-{
-    background-color: #DEEBFF;
-}
-.horizontal
-{
+.horizontal{
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: start;
 }
-.horizontal .stars
-{
+.horizontal .stars{
     position: absolute;
     bottom: 0;
     justify-self: flex-end;
 }
-
-.horizontal .card-infos
-{
+.horizontal .card-infos{
     width: 65%;
     border-radius: 25px 0 25px 0;
     padding-left: 20px;
@@ -257,20 +225,15 @@ button *
 .fixed-110{
     height: 120px;
 }
-.image-container img
-{
+.image-container img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
-.card-infos *
-{
+.card-infos *{
     margin: 5px 10px;
 }
-
-.stars *
-{
+.stars *{
     font-size: 10px;
     margin: 0;
     padding: 0;
@@ -279,8 +242,8 @@ button *
 /***
         Containers
 ***/
-#main-container
-{
+
+#main-container{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -288,42 +251,32 @@ button *
     padding: 0px 20px;
     margin:0;
 }
-
-#hebergements
-{
+#hebergements{
     width: 65.5%;
 }
-#populaires
-{
+#populaires{
     width: 32.5%;
 }
-.grey-panel
-{
+.grey-panel{
     background-color: #F2F2F2;
     border-radius: 25px;
     margin: 0;
     padding: 20px;
     margin: 0;
 }
-#hebergements-container
-{
+#hebergements-container{
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-#hebergements-container .card
-{
+#hebergements-container .card{
     width: 33.333%;
 }
-
-#populaires-container
-{
+#populaires-container{
     width: 100%;
 }
-
-.more
-{
+.more{
     margin-left: 10px;
     height: 60px;
     display: flex;
@@ -334,46 +287,34 @@ button *
 /***
         Activites
 ***/
-#activites
-{
+
+#activites{
     padding: 20px 10px 0 10px;
 }
-#activites-container
-{
+#activites-container{
     height: 550px;
     width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-
-#activites article
-{
+#activites article{
     width: 25%;
     padding: 10px;
 }
-.full
-{
+.full{
     height: 100%;
 }
-
-.great
-{
+.great{
     height: 60%;
 }
-
-.medium
-{
+.medium{
     height: 50%;
 }
-
-.small
-{
+.small{
     height: 40%;
 }
-
-.activite-content
-{
+.activite-content{
     border-radius: 25px;
     overflow: hidden;  
     position: relative;  
@@ -381,20 +322,15 @@ button *
     height: 100%;
     width:100%
 }
-.activite-content:hover
-{
+.activite-content:hover{
     cursor: pointer;
 }
-
-.activite-content img
-{
+.activite-content img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
-.activite-content h3
-{
+.activite-content h3{
     width: 100%;
     background-color: white;
     position: absolute;
@@ -407,8 +343,7 @@ button *
         Footer
 ***/
 
-footer
-{
+footer{
     background-color: #F2F2F2;
     display: flex;
     flex-direction: row;
@@ -417,23 +352,17 @@ footer
     width: 100%;
     padding:10px 25% 10px 10px;
 }
-
-footer article
-{
+footer article{
     margin: 0 10px 30px 10px;
     display: flex;
     flex-direction: column;
 }
-
-footer a
-{
+footer a{
     margin: 5px 0;
     font-size: 14px;
     font-weight: 400;
 }
-
-footer h2
-{
+footer h2{
     padding-left: 0;
     padding-right: 0;
 }
